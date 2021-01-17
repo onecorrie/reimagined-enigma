@@ -1,44 +1,106 @@
 
-body{
-	font-family: "Trebuchet MS", sans-serif;
-	margin: 50px;
-	color: grey;
-}
 
-.demoHeaders {
-	margin-top: 2em;
+/* -------  General Styles ------- */
+
+body {
+	margin: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	  background-image:url(images/backgrounds/greygrid.png);
+  }
+  
+  header {
+	  height: 140px;
+	  background-color: #264653;
 }
-#dialog-link {
-	padding: .4em 1em .4em 20px;
-	text-decoration: none;
-	position: relative;
-}
-#dialog-link span.ui-icon {
-	margin: 0 5px 0 0;
-	position: absolute;
-	left: .2em;
-	top: 50%;
-	margin-top: -8px;
-}
-#icons {
+  
+  .logo {
+	font-family: 'Rock Salt', cursive;
+	font-size: 60px;
+	color: #f0efeb;
+	text-align: center;
 	margin: 0;
-	padding: 0;
-}
-#icons li {
-	margin: 2px;
-	position: relative;
-	padding: 4px 0;
-	cursor: pointer;
-	float: left;
-	list-style: none;
-}
-#icons span.ui-icon {
-	float: left;
-	margin: 0 4px;
-}
-.fakewindowcontain .ui-widget-overlay {
-	position: absolute;
-}
-select {
-	width: 200px;
-}
+	padding: 20px 0 0 0;
+  }
+  
+  header h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #f0efeb;
+	  margin: 0px;
+	  font-size: 20px;
+	  text-align: center;
+  }
+  
+  footer {
+	  background-color: #264653;
+  }
+  
+  section {
+	  padding: 0 25%;
+	  margin: 80px 0;
+  }
+  
+  /* -------  Type ------- */
+  
+  h1, h2, h3 {
+	font-family: 'Raleway', sans-serif;
+	  color: #403933;
+	text-align: center;
+	font-weight: 500;
+  }
+  
+  h1 { font-size: 28px; }
+  h2 { font-size: 26px; }
+  h3 { font-size: 18px; }
+  
+  p, li {
+	font-family:	Helvetica, Arial, sans-serif;
+   line-height: 2em;
+   margin-bottom: 0;
+  }
+  
+  a {
+	  font-weight: 700;
+	  text-decoration: none;	
+  }
+  a:link { color: #38786a; }
+  a:visited { color: #38786a; }
+  a:hover { color: #403933; }
+  a:active { color: #403933; }
+  a:hover {
+	  text-decoration: underline;	
+  }
+  
+  em {
+	font-weight: bold;
+	font-style: normal;
+  }
+  
+  footer p {
+	  color: #fff;	
+	  text-align: center;
+	padding: 30px;
+	margin: 0;
+  }
+  
+  /* -------  Elements ------- */
+  
+  img {
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-radius: 8px;
+	border: 2px solid #c5c0b8;
+  }
+
+  iframe { 
+	width: 100%;	
+	border-radius: 8px;
+	border: 2px solid #c5c0b8;
+  } 
+  
+  /* -------  Modifier styles ------- */
+  
+  .border-top {
+	padding-top: 80px;
+	border-top: 2px solid #403933;
+  }
